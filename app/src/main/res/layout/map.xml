@@ -1,0 +1,221 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".gloc.MapActivity">
+
+    <com.indoor.mapshow.MySurfaceView
+        android:id="@+id/view3d"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true" />
+
+
+    <TextView
+        android:id="@+id/step"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Steps: "
+        android:textColor="@color/text"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Direction:"
+        android:textColor="@color/text"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/staircase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:text="Staircase Section "
+        android:textColor="@color/text"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/floor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="Current Level"
+        android:textColor="@color/text"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"
+        android:text="Position:"
+        android:textColor="@color/text"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/record1"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/newdata1" />
+
+    <ImageButton
+        android:id="@+id/createmap"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/record1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/buildmap1" />
+
+    <ImageButton
+        android:id="@+id/localize"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/createmap"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/localization1" />
+
+    <ImageButton
+        android:id="@+id/navigate"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/localize"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/navigation" />
+
+    <ImageButton
+        android:id="@+id/infos"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/navigate"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/information1" />
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/infos"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/close1" />
+
+    <ImageView
+        android:id="@+id/dir"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="310dp"
+        android:contentDescription="@string/dir"
+        android:src="@drawable/dir" />
+
+    <ImageView
+        android:id="@+id/upstairs"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="310dp"
+        android:contentDescription="@string/upstairs"
+        android:src="@drawable/upstairs" />
+
+    <ImageView
+        android:id="@+id/downstairs"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="310dp"
+        android:contentDescription="@string/downstairs"
+        android:src="@drawable/downstairs" />
+
+
+    <TextView
+    android:id="@+id/start"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="200dp"
+    android:layout_marginTop="270dp"
+    android:text="Start-- "
+    android:textColor="@color/text"
+    android:textSize="20dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/gueststartPointText"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="260dp"
+        android:completionThreshold="1"
+        android:hint="5,28"
+        android:text="5,28"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:singleLine="true" />
+
+
+    <TextView
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="270dp"
+        android:text="End-- "
+        android:textColor="@color/text"
+        android:textSize="20dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/guestendPointText"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="450dp"
+        android:completionThreshold="1"
+        android:hint="105,5"
+        android:text="105,5"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:singleLine="true" />
+
+
+
+</RelativeLayout>

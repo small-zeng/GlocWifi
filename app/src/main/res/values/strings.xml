@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GlocWifi</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="record_label">New DataSet</string>
+    <string name="settings_Label">Settings</string>
+    <string name="infos_Label">infos</string>
+    <string name="exit_Label">exit</string>
+
+    <string name="levelshow">level: # </string>
+    <string name="turnshow">turn: # </string>
+    <string name="upstairs">upstair</string>
+    <string name="dir">direction</string>
+    <string name="downstairs">downstair</string>
+
+</resources>

@@ -1,0 +1,4 @@
+#Sat Apr 11 00:06:55 CST 2020
+base.0=D\:\\AndroidStudio\\AndroidProjects\\GlocWifi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

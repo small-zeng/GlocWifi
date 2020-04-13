@@ -1,0 +1,231 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\Gloc.iml
+* .idea\codeStyles\
+* .idea\codeStyles\Project.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\workspace.xml
+* Gloc\
+* Gloc\.classpath
+* Gloc\.project
+* Gloc\.settings\
+* Gloc\.settings\org.eclipse.jdt.core.prefs
+* Gloc\AndroidManifest.xml
+* Gloc\bin\
+* Gloc\bin\AndroidManifest.xml
+* Gloc\bin\Gloc2.apk
+* Gloc\bin\classes.dex
+* Gloc\bin\classes\
+* Gloc\bin\classes\com\
+* Gloc\bin\classes\com\example\
+* Gloc\bin\classes\com\example\gloc2\
+* Gloc\bin\classes\com\example\gloc2\BuildConfig.class
+* Gloc\bin\classes\com\example\gloc2\R$attr.class
+* Gloc\bin\classes\com\example\gloc2\R$color.class
+* Gloc\bin\classes\com\example\gloc2\R$dimen.class
+* Gloc\bin\classes\com\example\gloc2\R$drawable.class
+* Gloc\bin\classes\com\example\gloc2\R$id.class
+* Gloc\bin\classes\com\example\gloc2\R$layout.class
+* Gloc\bin\classes\com\example\gloc2\R$menu.class
+* Gloc\bin\classes\com\example\gloc2\R$string.class
+* Gloc\bin\classes\com\example\gloc2\R$style.class
+* Gloc\bin\classes\com\example\gloc2\R.class
+* Gloc\bin\classes\com\indoor\
+* Gloc\bin\classes\com\indoor\gloc\
+* Gloc\bin\classes\com\indoor\gloc\CollectDataActivity$1.class
+* Gloc\bin\classes\com\indoor\gloc\CollectDataActivity$2.class
+* Gloc\bin\classes\com\indoor\gloc\CollectDataActivity$3.class
+* Gloc\bin\classes\com\indoor\gloc\CollectDataActivity.class
+* Gloc\bin\classes\com\indoor\gloc\MapActivity$1.class
+* Gloc\bin\classes\com\indoor\gloc\MapActivity$2.class
+* Gloc\bin\classes\com\indoor\gloc\MapActivity$ButtonListener1.class
+* Gloc\bin\classes\com\indoor\gloc\MapActivity$ButtonListener2.class
+* Gloc\bin\classes\com\indoor\gloc\MapActivity$ButtonListener3.class
+* Gloc\bin\classes\com\indoor\gloc\MapActivity$ButtonListener4.class
+* Gloc\bin\classes\com\indoor\gloc\MapActivity$ButtonListener5.class
+* Gloc\bin\classes\com\indoor\gloc\MapActivity.class
+* Gloc\bin\classes\com\indoor\gloc\OfflineActivity$1.class
+* Gloc\bin\classes\com\indoor\gloc\OfflineActivity$2.class
+* Gloc\bin\classes\com\indoor\gloc\OfflineActivity$ButtonListener2.class
+* Gloc\bin\classes\com\indoor\gloc\OfflineActivity$ButtonListener3.class
+* Gloc\bin\classes\com\indoor\gloc\OfflineActivity$ButtonListener5.class
+* Gloc\bin\classes\com\indoor\gloc\OfflineActivity.class
+* Gloc\bin\classes\com\indoor\gloc\SplashActivity$1$1.class
+* Gloc\bin\classes\com\indoor\gloc\SplashActivity$1.class
+* Gloc\bin\classes\com\indoor\gloc\SplashActivity.class
+* Gloc\bin\classes\com\indoor\map\
+* Gloc\bin\classes\com\indoor\map\Floor.class
+* Gloc\bin\classes\com\indoor\map\Map.class
+* Gloc\bin\classes\com\indoor\map\PublicData.class
+* Gloc\bin\classes\com\indoor\mapshow\
+* Gloc\bin\classes\com\indoor\mapshow\MySurfaceView.class
+* Gloc\bin\classes\com\indoor\particlefilter\
+* Gloc\bin\classes\com\indoor\particlefilter\Particle.class
+* Gloc\bin\classes\com\indoor\particlefilter\Particle_Filter$1.class
+* Gloc\bin\classes\com\indoor\particlefilter\Particle_Filter.class
+* Gloc\bin\classes\com\indoor\tools\
+* Gloc\bin\classes\com\indoor\tools\OfflineUserData.class
+* Gloc\bin\classes\com\indoor\tools\SensorsAdmin.class
+* Gloc\bin\classes\com\indoor\tools\UserData.class
+* Gloc\bin\classes\com\indoor\tools\UserStepDetection.class
+* Gloc\bin\classes\com\indoor\tools\WifiAdmin.class
+* Gloc\bin\dexedLibs\
+* Gloc\bin\dexedLibs\android-support-v4-1e4ac6cb6da9ce5d83ff07261d09c56d.jar
+* Gloc\bin\dexedLibs\android-support-v4-5503a8ba430dc90958d975bc19aa4040.jar
+* Gloc\bin\dexedLibs\android-support-v4-9b7d175921e1688c699e3ff513da6c1d.jar
+* Gloc\bin\jarlist.cache
+* Gloc\bin\res\
+* Gloc\bin\res\drawable-hdpi\
+* Gloc\bin\res\drawable-hdpi\ic_launcher.png
+* Gloc\bin\res\drawable-mdpi\
+* Gloc\bin\res\drawable-mdpi\bottomgrass.png
+* Gloc\bin\res\drawable-mdpi\buildmap1.png
+* Gloc\bin\res\drawable-mdpi\close1.png
+* Gloc\bin\res\drawable-mdpi\compass.png
+* Gloc\bin\res\drawable-mdpi\elecfont1.png
+* Gloc\bin\res\drawable-mdpi\floor1s.png
+* Gloc\bin\res\drawable-mdpi\floor2s.png
+* Gloc\bin\res\drawable-mdpi\floor3s.png
+* Gloc\bin\res\drawable-mdpi\floor4s.png
+* Gloc\bin\res\drawable-mdpi\floor5s.png
+* Gloc\bin\res\drawable-mdpi\ic_launcher.png
+* Gloc\bin\res\drawable-mdpi\information1.png
+* Gloc\bin\res\drawable-mdpi\libaccess.png
+* Gloc\bin\res\drawable-mdpi\localization1.png
+* Gloc\bin\res\drawable-mdpi\newdata1.png
+* Gloc\bin\res\drawable-mdpi\recording.png
+* Gloc\bin\res\drawable-mdpi\red10.png
+* Gloc\bin\res\drawable-mdpi\stairs.png
+* Gloc\bin\res\drawable-xhdpi\
+* Gloc\bin\res\drawable-xhdpi\ic_launcher.png
+* Gloc\bin\res\drawable-xxhdpi\
+* Gloc\bin\res\drawable-xxhdpi\ic_launcher.png
+* Gloc\bin\resources.ap_
+* Gloc\gen\
+* Gloc\gen\com\
+* Gloc\gen\com\example\
+* Gloc\gen\com\example\gloc2\
+* Gloc\gen\com\example\gloc2\BuildConfig.java
+* Gloc\gen\com\example\gloc2\R.java
+* Gloc\ic_launcher-web.png
+* Gloc\libs\
+* Gloc\libs\android-support-v4.jar
+* Gloc\proguard-project.txt
+* Gloc\project.properties
+* Gloc\res\
+* Gloc\res\drawable-hdpi\
+* Gloc\res\drawable-hdpi\ic_launcher.png
+* Gloc\res\drawable-mdpi\
+* Gloc\res\drawable-mdpi\background.jpg
+* Gloc\res\drawable-mdpi\bottomgrass.png
+* Gloc\res\drawable-mdpi\buildmap1.png
+* Gloc\res\drawable-mdpi\close1.png
+* Gloc\res\drawable-mdpi\compass.png
+* Gloc\res\drawable-mdpi\elecfont1.png
+* Gloc\res\drawable-mdpi\floor1s.png
+* Gloc\res\drawable-mdpi\floor2s.png
+* Gloc\res\drawable-mdpi\floor3s.png
+* Gloc\res\drawable-mdpi\floor4s.png
+* Gloc\res\drawable-mdpi\floor5s.png
+* Gloc\res\drawable-mdpi\ic_launcher.png
+* Gloc\res\drawable-mdpi\information1.png
+* Gloc\res\drawable-mdpi\libaccess.png
+* Gloc\res\drawable-mdpi\localization1.png
+* Gloc\res\drawable-mdpi\newdata1.png
+* Gloc\res\drawable-mdpi\recording.png
+* Gloc\res\drawable-mdpi\red10.png
+* Gloc\res\drawable-mdpi\stairs.png
+* Gloc\res\drawable-xhdpi\
+* Gloc\res\drawable-xhdpi\ic_launcher.png
+* Gloc\res\drawable-xxhdpi\
+* Gloc\res\drawable-xxhdpi\ic_launcher.png
+* Gloc\res\layout\
+* Gloc\res\layout\collectwifi.xml
+* Gloc\res\layout\map.xml
+* Gloc\res\layout\splash.xml
+* Gloc\res\menu\
+* Gloc\res\menu\splash.xml
+* Gloc\res\values-sw600dp\
+* Gloc\res\values-sw600dp\dimens.xml
+* Gloc\res\values-sw720dp-land\
+* Gloc\res\values-sw720dp-land\dimens.xml
+* Gloc\res\values-v14\
+* Gloc\res\values-v14\styles.xml
+* Gloc\res\values-v14\values-v11\
+* Gloc\res\values-v14\values-v11\styles.xml
+* Gloc\res\values\
+* Gloc\res\values\colors.xml
+* Gloc\res\values\dimens.xml
+* Gloc\res\values\strings.xml
+* Gloc\res\values\styles.xml
+* Gloc\src\
+* Gloc\src\com\
+* Gloc\src\com\indoor\
+* Gloc\src\com\indoor\gloc\
+* Gloc\src\com\indoor\gloc\CollectDataActivity.java
+* Gloc\src\com\indoor\gloc\MapActivity.java
+* Gloc\src\com\indoor\gloc\OfflineActivity.java
+* Gloc\src\com\indoor\gloc\SplashActivity.java
+* Gloc\src\com\indoor\map\
+* Gloc\src\com\indoor\map\Floor.java
+* Gloc\src\com\indoor\map\Map.java
+* Gloc\src\com\indoor\map\PublicData.java
+* Gloc\src\com\indoor\mapshow\
+* Gloc\src\com\indoor\mapshow\MySurfaceView.java
+* Gloc\src\com\indoor\particlefilter\
+* Gloc\src\com\indoor\particlefilter\Particle.java
+* Gloc\src\com\indoor\particlefilter\Particle_Filter.java
+* Gloc\src\com\indoor\tools\
+* Gloc\src\com\indoor\tools\OfflineUserData.java
+* Gloc\src\com\indoor\tools\SensorsAdmin.java
+* Gloc\src\com\indoor\tools\UserData.java
+* Gloc\src\com\indoor\tools\UserStepDetection.java
+* Gloc\src\com\indoor\tools\WifiAdmin.java
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
