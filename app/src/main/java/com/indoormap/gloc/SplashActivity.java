@@ -92,7 +92,7 @@ public class SplashActivity extends Activity {
 
 //        //动态权限申请
 //        permissionRequest();
-		
+        System.out.println(2);
 	}
 
 
