@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Aug 12 21:53:53 CST 2020
+0.baseType=DIRECTORY
+0.base=D\:\\Android\\AndroidProjects\\Gloc-New\\Gloc\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

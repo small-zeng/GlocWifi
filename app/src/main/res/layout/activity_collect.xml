@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.indoormap.mapshow.DataCollectSurfaceView
+        android:id="@+id/view3d1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/linear_layout1" />
+
+    <ListView
+        android:id="@+id/listMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"></ListView>
+
+    <Button
+        android:id="@+id/tick"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="tick" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bluetooth_red"
+        android:text=""
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/uwbposition"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="60dp"
+        android:hint="UWB-x,y"
+        android:text=""
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/stepcounter"
+        android:layout_width="100dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/puzzle_hilite"
+        android:textColor="@color/puzzle_background"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/uwbSinglePoint"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitCenter"
+        android:text="单点" />
+
+    <Button
+        android:id="@+id/uwbMultiplePoints"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitCenter"
+        android:text="连续" />
+
+    <Button
+        android:id="@+id/selectfile"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="0dp"
+        android:scaleType="fitCenter"
+        android:text="select file" />
+
+    <Spinner
+        android:id="@+id/record"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="0dp"
+        android:autofillHints="choose map"
+        android:entries="@array/mapchoose"
+        android:scaleType="fitCenter" />
+
+
+    <EditText
+        android:id="@+id/pathstart"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="102dp"
+        android:hint="start-x,y"
+        android:text="525,100"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="105dp"
+        android:background="@color/puzzle_hilite"
+        android:text="—>"
+        android:textColor="@color/light_blue"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/pathend"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="102dp"
+        android:hint="end-x,y"
+        android:text="600,190"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ori"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="105dp"
+        android:background="@color/puzzle_hilite"
+        android:text="Ori:"
+        android:textColor="@color/puzzle_background"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/angle"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="102dp"
+        android:hint="end-x,y"
+        android:text="-155"
+        android:textSize="20dp" />
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/record"
+        android:layout_marginTop="40dp"
+        android:background="#CDC673"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/uwbLoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="uwbLoc:"
+            android:textColor="#FF0000"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/record"
+        android:layout_marginTop="70dp"
+        android:background="#E6E6FA"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/initialmag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b_mag:"
+            android:textColor="#00CD66"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/transformedmag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="n_mag:"
+            android:textColor="#00CD66"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/magangle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mag_angle:"
+            android:textColor="#00CD66"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/chronometer"
+        android:layout_below="@+id/record"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/puzzle_background" />
+
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Chronometer"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+
+
+</RelativeLayout>

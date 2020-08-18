@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mapchoose">
+        <item>all map</item>
+        <item>static map</item>
+        <item>read map</item>
+        <item>slow 1</item>
+        <item>slow 2</item>
+        <item>slow 3</item>
+        <item>slow 4</item>
+        <item>normal 1</item>
+        <item>normal 2</item>
+        <item>normal 3</item>
+        <item>normal 4</item>
+        <item>fast 1</item>
+        <item>fast 2</item>
+        <item>fast 3</item>
+        <item>fast 4</item>
+    </string-array>
+</resources>

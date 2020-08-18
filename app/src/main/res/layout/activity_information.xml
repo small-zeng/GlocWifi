@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/puzzle_hilite"
+    android:orientation="vertical"
+    tools:context=".gloc.InformationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/gyrotextshow"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentLeft="true"
+            android:text="@string/gyrotextshow"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/magnettextshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="0dp"
+            android:text="@string/magnettextshow"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/acctextshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/magnettextshow"
+            android:layout_marginTop="0dp"
+            android:text="@string/acctextshow"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/linearacctextshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/acctextshow"
+            android:layout_marginTop="0dp"
+            android:text="@string/linearacctextshow"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gratextshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/acctextshow"
+            android:layout_marginTop="5dp"
+            android:text="@string/linearacctextshow"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/oritextshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/gratextshow"
+            android:layout_marginTop="5dp"
+            android:text="@string/oritextshow"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/oritextshow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/oritextshow"
+            android:layout_marginTop="5dp"
+            android:text="oriVal1:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/barotextshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/oritextshow1"
+            android:layout_marginTop="5dp"
+            android:text="@string/barotextshow"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/record"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentLeft="true"
+            android:text="Record"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/record1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentLeft="true"
+            android:text="Start"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
